@@ -1,4 +1,4 @@
-/*====  RESET ============================ */
+/* ====  RESET ============================ */
 /* * {
     margin: 0;
     padding: 0;
@@ -17,3 +17,20 @@ img {
     width: 100%;
     height: auto;
 }
+
+/* ====  VARIABLES ============================ */
+:root {
+    --header-height: 4.5rem;
+
+    /* colors */
+    --base-color: #D2872C; /*Orange*/
+    --base-color-second: #766F68; /*Gray*/
+
+    /* fonts */
+    --title-font-size: 1.87rem;
+    --subtitle-font-size: 1rem;
+    
+    --title-font: 'Roboto', sans-serif;
+ }
+
+ 
