@@ -68,3 +68,40 @@ body {
     background-color: var(--base-color-tree);
     color: white;
 }
+
+/* ====  LAYOUT ============================ */
+.container {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.section {
+    padding: calc(5rem + var(--header-height)) 0;
+}
+
+.section .title {
+    margin-bottom: 1rem;
+}
+
+#header {
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+    /* display: flex; */
+
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+/* ====  LOGO ============================ */
+.logo {
+    font: 700 2.2rem var(--title-font);
+    color: var(--base-color);
+}
