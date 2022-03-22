@@ -24,7 +24,7 @@ img {
 
 /* ====  VARIABLES ============================ */
 :root {
-    --header-height: 4.5rem;
+    --header-height: 8rem;
 
     /* colors */
     --base-color: #D2872C; /*Orange*/
@@ -227,6 +227,11 @@ nav.show div.icon-close {
 
 #home .image {
     position: relative;
+}
+
+#home .image img {
+    position: relative;
+    left: 2.93rem;
 }
 
 #home .text {
