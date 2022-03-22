@@ -1,4 +1,6 @@
 /* ====  RESET ============================ */
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;400;500;700;900 & display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -62,9 +64,10 @@ body {
     height: 3.5rem;
     display: inline-flex;
     align-items: center;
-    padding: 0.6rem 6rem 0.4rem;
-    border-radius: 1rem;
-    font: 700 2rem var(--title-font);
+    padding: 2.5rem 6.2rem 2rem;
+    margin-bottom: 8rem;
+    border-radius: 1.5rem;
+    font: 700 1.7rem var(--title-font);
     transition: backgrond 0.3s; 
 }
 
@@ -93,11 +96,8 @@ body {
 }
 
 #header {
-    border-bottom: 1px solid black;
     margin-bottom: 2rem;
-    /* display: flex; */
 
-    /* position: fixed; */
     top: 0;
     left: 0;
     z-index: 100;
@@ -110,7 +110,8 @@ body {
 
 /* ====  LOGO ============================ */
 .logo {
-    font: 700 1.5rem var(--title-font);
+    font: 700 2rem var(--title-font);
+    padding-left: 2rem;
     color: var(--base-color);
 }
 
@@ -120,7 +121,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
 }
 
 nav ul li {
@@ -226,12 +227,14 @@ nav.show div.icon-close {
 }
 
 #home .image {
-    position: relative;
+    margin-top: -12rem;
+    padding: 0 2.5rem;
+    margin-bottom: 3rem;
 }
 
 #home .image img {
-    position: relative;
-    left: 2.93rem;
+    display: flex;
+    margin: 0 auto;
 }
 
 #home .text {
@@ -241,10 +244,12 @@ nav.show div.icon-close {
 }
 
 #home .text h1 {
-    margin-bottom: 1rem;
+    padding: 0 2.5rem;
+    margin-bottom: 2rem;
 }
 
 #home .text p {
+    padding: 0 2.5rem;
     margin-bottom: 2rem;
 }
 
@@ -314,4 +319,26 @@ nav.show div.icon-close {
     main {
         margin-top: var(--header-height);
     }
+
+    /* Home */
+    /* #home .container {
+        grid-auto-flow: column;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    #home .image {
+        order: 1;
+    } */
+    #home {
+        overflow: hidden;
+    }
+    
+    #home .container {
+        margin: 0 auto;
+    }
+    
+    /* #home .image img {
+        
+    } */
 }
